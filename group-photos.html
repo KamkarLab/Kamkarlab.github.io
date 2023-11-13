@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+
+    <link rel="icon" href="images/kamkar-icon.jpg" >
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+            x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+            <div class="topnav-content">
+            <a class="title">Kamkar Lab</a>
+            <a href="index.html">Home</a>
+            <a href="people.html">People</a>
+            <a href="journal-covers.html">Journal Covers</a>
+            <a href="group-photos.html" class="active">Group Photos</a>
+            <a href="contact.html">Contact</a> 
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="main">
+        <p style="text-align: center;">no images here yet</p>
+    </div>
+
+    <div class="footer">
+        <ul class="footer-content">
+            <li>
+                <img src="images/waterloo-logo.jpg" alt="waterloo-logo">
+                <img src="images/kamkar-logo.jpg" alt="kamkar-logo">
+            </li>
+            <li>
+                <p><b>Milad Kamkar</b> ,PhD </p>
+                <p>
+                Department of Chemical Engineering <br>
+                <i class="fa fa-envelope"></i> Milad.kamkar@uwaterloo.ca <br>
+                <i class="fa fa-map-marker"></i> Waterloo Institute for Nanotechnology <br>
+                E6 3010, 200 University AVE. W., Waterloo, ON, Canada N2L 3G1s
+                </p>
+            </li>
+            <li>
+                <p>We acknowledge that much of our work takes place on the traditional territory of the Neutral, Anishinaabeg and Haudenosaunee peoples.
+                 We are situated on the Haldimand Tract, the land granted to the Six Nations that includes six miles on each side of the Grand River.</p>
+            </li>
+        </ul>
+        
+    </div>
+</body>
+</html>

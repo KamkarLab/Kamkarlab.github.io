@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Kamkar Lab</title>
+
+    <link rel="icon" href="images/kamkar-icon.jpg" >
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+            x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+    <div class="topnav-content">
+        <a class="title">Kamkar Lab</a>
+        <a href="index.html" class="active">Home</a>
+        <a href="people.html">People</a>
+        <a href="journal-covers.html">Journal Covers</a>
+        <a href="group-photos.html">Group Photos</a>
+        <a href="contact.html">Contact</a> 
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    </div>
+
+    <div class="main">
+        <p></p>
+        <p>
+            We engineer advanced materials across scales, from nanoscale chemistry to macroscale manufacturing.
+             Our team precisely controls surface chemistry and geometry on the nanoscale using molecular engineering, 
+             enabling control over the microscale assembly of materials like graphene oxide, MXene, cellulose nanocrystals,
+              and polymers. These tailored nano and microscale features yield advanced products with versatile rheological properties,
+               ready for diverse applications such as sensors, electromagnetic shields, and environmental remediation. Based on their rheological features,
+            our group employs advanced manufacturing methods like 3D printing and interfacial assembly to bring these innovations to fruition.
+        </p>
+        <img class="gif-player" src="images/home-gif.gif">
+        <p>
+            We also design novel processes to create new types of multiphase soft materials with unique morphologies. 
+            via interfacial assembly. Recently, we developed a new technique called liquid streaming/templating where structured all-liquid soft materials can be 
+            templated for fabrication of ultra-lightweight aerogels with hierarchical porosity. Utilizing cutting-edge advanced nanomaterials and/or polymers as the building blocks, these aerogels 
+            find application across diverse sectors, from electromagnetic shielding to wastewater treatment, thermal management, and oil-spill remediation.
+        </p>
+        <p></p>
+    </div>
+
+
+    <div class="footer">
+        <ul class="footer-content">
+            <li>
+                <img src="images/waterloo-logo.jpg" alt="waterloo-logo">
+                <img src="images/kamkar-logo.jpg" alt="kamkar-logo">
+            </li>
+            <li>
+                <p><b>Milad Kamkar</b> ,PhD </p>
+                <p>
+                Department of Chemical Engineering <br>
+                <i class="fa fa-envelope"></i> Milad.kamkar@uwaterloo.ca <br>
+                <i class="fa fa-map-marker"></i> Waterloo Institute for Nanotechnology <br>
+                E6 3010, 200 University AVE. W., Waterloo, ON, Canada N2L 3G1s
+                </p>
+            </li>
+            <li>
+                <p>We acknowledge that much of our work takes place on the traditional territory of the Neutral, Anishinaabeg and Haudenosaunee peoples.
+                 We are situated on the Haldimand Tract, the land granted to the Six Nations that includes six miles on each side of the Grand River.</p>
+            </li>
+        </ul>
+        
+    </div>
+</body>
+</html>
