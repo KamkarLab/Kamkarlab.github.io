@@ -23,6 +23,13 @@ body {
     min-height: 75vh;
 }
 
+.bannerimage img {
+    width: 100%;
+    max-width: 1200px;
+    margin:auto ;
+    display: flex;
+  }
+
 .gif-player {
     width: 80%;
     height: auto;
