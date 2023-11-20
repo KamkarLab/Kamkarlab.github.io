@@ -172,6 +172,25 @@ body {
     transition:.9s
 }
 
+.gallery {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.group-photos img {
+    width: 516px;
+    height: 334px;
+    padding: 0 20px 20px;
+}
+
+.group-photos img :hover{
+    opacity: .5;
+    transition:.9s
+}
+
 .box {
     display: flex;
     float: left;
