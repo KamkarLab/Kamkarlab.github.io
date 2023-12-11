@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Comic Neue:700|Comic Neue:400');
+/* @import url('https://fonts.googleapis.com/css?family=Comic Neue:700|Comic Neue:400'); */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 * {
-  font-family: 'Comic Neue';
+  font-family: 'Libre Baskerville';
   font-weight: 400;
   box-sizing: border-box;
 }
