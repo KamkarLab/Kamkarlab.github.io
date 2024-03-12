@@ -32,6 +32,7 @@ body {
   } */
 
 .gif-player {
+    display: block;
     width: 80%;
     height: auto;
     margin: auto;
